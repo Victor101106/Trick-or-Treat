@@ -1,0 +1,18 @@
+{
+  "name": "trick-or-treat",
+  "version": "1.0.0",
+  "description": "Trick or treat is an activity in which children knock on the doors of houses at Halloween and shout 'trick or treat'.",
+  "main": "resouces/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node resources/server.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "keywords": [],
+  "author": "Victor Gabriel",
+  "license": "MIT"
+}
