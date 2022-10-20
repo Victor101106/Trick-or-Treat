@@ -13,6 +13,7 @@ const PORT = '3030'
 app.engine('html', es6Renderer)
 app.set('view engine', 'html')
 app.set('views', `${__dirname}/public/views`)
+app.use(express.static(`${__dirname}/public`))
 app.use(cookieParser())
 app.use(routes)
 
