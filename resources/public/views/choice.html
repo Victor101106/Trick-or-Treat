@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/button.png">
+    <link rel="stylesheet" href="../styles/choice.css">
+    <title>Your choice was... ${choice}</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("../images/${choice == 'Treat' ? 'candy' : 'pumpkin'}-background.gif");
+        }
+    </style>
+    <div class="container">
+        <img class="image" src="../images/${choice == 'Treat' ? 'candy' : 'pumpkin'}.gif" alt="${choice ? 'Candy' : 'Pumpkin'}">
+        <img class="title" src="../images/${choice.toLowerCase()}.gif" alt="${choice}">
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-repeat: repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}
+
+.image {
+    max-width: 40%;
+    width: 8em;
+}
+
+.title {
+    max-width: 80%;
+    width: 18em;
+}
