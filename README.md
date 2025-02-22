@@ -30,7 +30,9 @@ Trick or Treat was a project made for the school's Halloween event where visitor
 
 ## Screenshots
 
-<img alt="Screenshots" src="public/images/readme.screenshots.png">
+<img alt="Screenshot" src="public/images/readme.screenshot.1.png">
+<img alt="Screenshot" src="public/images/readme.screenshot.2.png">
+<img alt="Screenshot" src="public/images/readme.screenshot.3.png">
 
 ## Requirements
 
