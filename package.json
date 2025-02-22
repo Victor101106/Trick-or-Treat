@@ -5,6 +5,7 @@
   "main": "resouces/server.js",
   "type": "module",
   "scripts": {
+    "git:commit": "cz",
     "server": "node resources/server.js"
   },
   "config": {
